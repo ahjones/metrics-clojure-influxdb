@@ -1,4 +1,4 @@
-(defproject xyz.a4j/metrics-clojure-influxdb "0.1.0"
+(defproject xyz.a4j/metrics-clojure-influxdb "0.1.1-SNAPSHOT"
   :description "Clojure wrapper around InfluxDB metrics library"
   :url "https://github.com/ahjones/metrics-clojure-influxdb"
   :license {:name "Eclipse Public License"
