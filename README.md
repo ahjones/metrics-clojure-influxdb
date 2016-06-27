@@ -1,10 +1,17 @@
 # metrics-clojure-influxdb
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library that wraps a Java Influx DB library and makes a
+reporter available for use with
+[https://github.com/sjl/metrics-clojure](Metrics Clojure)
 
 ## Usage
 
-FIXME
+```Clojure
+(require '[metrics.reporters.influxdb :as reporters.influxdb])
+
+(let [r (reporters.influxdb/reporter {:host "localhost" :tags {"service" "demo"}})]
+    (reporters.influxdb/start r 300))
+```
 
 ## License
 
