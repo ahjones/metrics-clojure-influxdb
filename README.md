@@ -2,7 +2,7 @@
 
 A Clojure library that wraps a Java Influx DB library and makes a
 reporter available for use with
-[https://github.com/sjl/metrics-clojure](Metrics Clojure)
+[Metrics Clojure](https://github.com/sjl/metrics-clojure)
 
 ## Usage
 
