@@ -5,4 +5,4 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [metrics-clojure "2.7.0"]
-                 [com.izettle/dropwizard-metrics-influxdb "1.1.6"]])
+                 [com.izettle/dropwizard-metrics-influxdb "1.1.8"]])
