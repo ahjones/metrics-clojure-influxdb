@@ -8,7 +8,7 @@
     (is (reporter {})))
 
   (testing "construct with measurement mappings"
-    (is (reporter {:measurement-mappings {"health" ".*\\health(\\.*)?"}})))
+    (is (reporter {:measurement-mappings {"health" ".*health(\\.*)?"}})))
 
   (testing "construce with tags mappings"
     (is (reporter {:tags {"hostname" "host01"}}))))
