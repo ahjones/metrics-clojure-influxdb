@@ -1,5 +1,7 @@
 # metrics-clojure-influxdb
 
+https://travis-ci.org/ahjones/metrics-clojure-influxdb.svg?branch=master
+
 A Clojure library that wraps a Java Influx DB library and makes a
 reporter available for use with
 [Metrics Clojure](https://github.com/sjl/metrics-clojure)
